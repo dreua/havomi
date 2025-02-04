@@ -54,5 +54,5 @@ jobs:
     - name: Upload MIDI Tool artifact
       uses: actions/upload-artifact@v4
       with:
-          name: Havomi Debug Tools
+          name: Havomi Midi Tool
           path: dist/midi_tool.exe
